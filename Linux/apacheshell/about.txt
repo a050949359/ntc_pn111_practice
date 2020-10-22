@@ -1,0 +1,23 @@
+在httpd建完之後， 至少要有/var/www/html/test1/private的資料夾
+因為我直接指定路徑
+test1為一個網頁的template
+建議是用兩個這樣才能再用虛擬網址時分辨出結果
+
+1.設定Virtual的流程
+  有ＩＰ
+
+  有domain name指定到ＩＰ
+
+  在/etc/httpd/conf.d下有設定檔
+ （設定檔內容網路自己找）
+
+2.網頁需要輸入帳密的流程是
+  .htaccess在需要輸入帳密的資料夾底下
+
+  .htpasswd要有這個檔案位置隨便，.htaccess有紀錄就好，指令生成
+  （程式內直接指定.htaccess同位置)
+
+  http.conf內容修改
+  <Directory .htaccess的資料夾位置>
+	....
+  </Directory>

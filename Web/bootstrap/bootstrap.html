@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>bootstrap</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+	<style>
+		.test{
+			height: 100px;
+			background-color: red;
+		}
+
+		.test+.test{
+			background-color: blue;
+		}
+
+		/* .container{
+			max-width: 1200px;
+			width: 100%;
+		}
+
+		.col-8{
+			width: 66%
+		}
+
+		.col-4{
+			width: 34%;
+		} */
+
+	</style>
+</head>
+<body>
+	
+
+
+	<div class="container">
+		<div class="row">
+			<div class="jumbotron">
+			    <h1 class="display-4">Hello, world!</h1>
+			    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+			    <hr class="my-4">
+			    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+			    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+			</div>
+			<div class="col-4 test">1</div>
+			<div class="col-8 test">2</div>
+		</div>
+	</div>
+
+	<h1>
+  	練習2. 請試著使用Bootstrap的響應式斷點佈局，完成每個標籤的要求
+	</h1>
+
+	<div class="container">
+	  <div class="row">
+	    <div class="col-6 col-md-8 test">
+	      在手機或以下的尺寸我要佔6欄<br>
+	      在平板以上的尺寸則要佔8欄
+	    </div>
+	    <div class="col-6 col-md-4 test">
+	      在手機或以下的尺寸我要佔6欄<br>
+	      在平板以上的尺寸則要佔4欄
+	    </div>
+	    <div class="col-10 test">
+	      在任何時候我都要佔10欄
+	    </div>
+	  </div>
+	</div>
+
+	<div class="container">
+        <div class="row">
+            <div class="col-5 bg-primary text-white">
+                我的背景會是藍色，文字會是白色
+            </div>
+            <div class="col-7 border border-danger text-success">
+                我的外框會是紅色，文字會是綠色
+            </div>
+            <div class="col-6 text-warning pt-1">
+                我的文字會是黃色
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+    	<div class="row">
+    		<div class="col-6 bg-success text-white pt-2">我佔6欄</div>
+    		<div class="col-6 bg-info pt-3">我佔6欄</div>
+    		<div class="col-9 border-warning text-danger pt-4">我佔9欄</div>
+    		<div class="col-3 bg-dark text-white pt-5">我佔3欄</div>
+    	</div>
+    </div>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

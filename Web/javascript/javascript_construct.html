@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+	</head>
+	<body>
+		<script>
+			function PersonTemplate(name, sex, age) {
+				number: 123;
+				this.name = name;
+				this.sex = sex;
+				this.age = age || false;
+				this.howOld = function () { //在建構式中可定義專有函數，稱為方法
+					if (this.age) {
+						console.log(this.name + this.sex +'歲');
+					} else {
+						console.log(this.name + ' 年齡未知');
+					}
+				}
+			}
+		</script>
+	</body>
+</html>

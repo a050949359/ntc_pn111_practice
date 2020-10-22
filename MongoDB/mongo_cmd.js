@@ -1,0 +1,6 @@
+db.getCollection('userlike').find({"$and":[{"age":{"$gte":30,"$lt":60}},{"fans":{"$gte":200}}]})
+db.getCollection('userlike').find({"age":{"$gte":30,"$lt":60},"fans":{"$gte":200}} )
+db.getCollection('userlike').find({"$or":[{"fans":{"$lte":100}},{"likes":{"$lt":100}}]})
+db.getCollection('userlike').find({"age":{"$in":[25,60]}})
+db.getCollection('userlike').find({"age":{"$nin":[25,60]}},{"id":1,"_id":0})
+db.getCollection('userlike').find({"likes":{"$not":{"$gt":100}}},{"id":1,"_id":0})

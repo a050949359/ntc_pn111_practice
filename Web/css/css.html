@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CSS</title>
+	<style>
+		*{
+			margin: 0;
+			font-family: "Arial";
+		}
+
+		div{
+			width: 50%;
+			height: 50vh;
+			background-image: url("./100-90-100-monochrome.png");
+			background-color: #AF51A3;
+			overflow: hidden;
+			float: left;
+			text-align:center;
+		}
+		#myID{
+			width: 200px;
+			height: 200px;
+			background-color: #00f;
+		}
+		.myClass{
+			background-color: #0f0;
+		}
+
+		[type="text"]{
+			background-color: #090;
+		}
+
+		/* 手機版避免使用 */
+		div:hover{
+			background-color: #00F;
+		}
+
+		div:before{
+			height: 100%;
+			display:inline-block;
+			vertical-align: middle
+		}
+
+		div:after{
+			height: 100%;
+			display:inline-block;
+			vertical-align: middle
+		}
+
+		li:first-child{
+			background-color: #f00;
+		}
+		li:nth-child(2),li:nth-child(3){
+			background-color: #0f0;
+		}
+		li:last-child{
+			background-color: rgba(0, 0, 255, 0.2);
+		}
+		/* id > class > div > * */
+
+		/* #MyID{
+			width: 200px;
+		} */
+	</style>
+	<style>
+		.outer1{
+			width: 100%;
+			height: 100%;
+			margin:0 auto;
+			background-color: #fA8;
+			/* max-width: 200px;
+			min-height: 200px; */
+			color: #AA0;
+			font-size: 100px;
+			font-weight: 100;
+			letter-spacing: 20px;
+			line-height: 50vh;
+			text-align: center;
+			text-decoration: line-through;
+			text-shadow: 2px 2px 5px #ccc;
+			float: left;
+			background-image: url('images/download.jpg');
+			background-repeat: no-repeat;
+			background-position: 50% 50%;
+			background-size: cover;
+
+			/* border: 10px dashed #0f0; */
+
+			/* inside over box
+			overflow: hidden; */
+			border-radius: 10%;
+			box-shadow: 0px 0px 20px #000;
+		}
+		.outer2{
+			width: 50vw;
+			height: 50vh;
+			
+			background-color: #00A;
+			max-width: 1000px;
+			min-height: 200px;
+			color: #AA0;
+			float: left;
+		}
+		.outer3{
+			width: 50vw;
+			height: 50vh;
+			
+			background-color: #1A8;
+			max-width: 1000px;
+			min-height: 200px;
+			color: #AA0;
+			float: left;
+		}
+		.outer4{
+			width: 50vw;
+			height: 50vh;
+			
+			background-color: #AA8;
+			max-width: 1000px;
+			min-height: 200px;
+			color: #AA0;
+			font-size: 100px;
+			float: left;
+
+		}
+	</style>
+</head>
+<body>
+	<!-- <div class="myClass">123</div>
+	<section id="myID" class="myClass">
+		section
+
+	</section>
+	<input type="text" name="" id="">
+	<br>
+	<input type="number" name="" id="">
+
+	<ul>
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+	</ul> -->
+
+	<!-- sectin.outer + tab -->
+	<div><section class="outer1">xxx</section></div>
+	
+	<section class="outer2"></section>
+	<section class="outer3"></section>
+	<section class="outer4"></section>
+</body>
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+	</head>
+	<body>
+		<h1 id="1">hello html</h1>
+		<h2>hello html</h2>
+		<h3>hello html</h3>
+		<h4>hello html</h4>
+		<h5>hello html</h5>
+		<h6>hello html</h6>
+		<p></p>
+		<div>block</div>
+		<header>a</header>
+		<footer>b</footer>
+		<nav>c</nav>
+		<section>d</section>
+		<span>eeeeeeeeeeeeeee</span>
+		<!-- 標籤性質
+		block
+		inlin -->
+
+		<!-- div = block -->
+		<div>
+			<!-- img = inline -->
+			<a href="#1">
+				<img src="images/download.jpg">
+			</a>
+			<!-- # = self -->
+		</div>
+
+		<a href="https://www.google.com/" target="_blank">google</a>
+		<a href="page2.html">page 2</a>
+
+		<ol>
+			<li>1</li>
+			<li>2</li>
+			<li>3</li>
+		</ol>
+		<ul>
+			<li>1</li>
+			<li>2</li>
+			<li>3</li>
+		</ul>
+
+		get
+		<!-- method = get/post -->
+		<form action="#" method="get">
+			<h4>我的表單</h4>
+			<h5>姓名</h5>
+			<input type="text" name="name" disabled><br>
+			
+			<h5>密碼</h5>
+			<input type="password" name="passwd" placeholder="請輸入密碼">
+
+			<h5>電話</h5>
+			<input type="phone" name="tel">
+
+			<h5>Email</h5>
+			<input type="email" name="email">
+
+			<h5>數字</h5>
+			<input type="number" min=0 max=5 name="num">
+
+			<h5>範圍</h5>
+			<input type="range" min=0 max=5 name="range">
+
+			<h5>檔案</h5>
+			<input type="file" name="file">
+
+			<h5>隱藏</h5>
+			<input type="hidden" value="A123456789" name="memberID">
+
+			<h5>性別</h5>
+			<label>
+				男 <input type="radio" name="gender" value="1" >
+			</label>
+			<label>
+				女 <input type="radio" name="gender" value="2">
+			</label>
+			<label>
+				其他 <input type="radio" name="gender" value="3">
+			</label>
+			
+			<h5>專長語言</h5>
+			<label>
+				<input type="checkbox" name="lang" vlaue="en">英文 <br>
+			</label>
+			<label>
+				<input type="checkbox" name="lang", value="cn">中文 <br>
+			</label>
+			<label>
+				<input type="checkbox" name="lang", value="jp">日文
+			</label>
+
+			<h5>下拉式選單</h5>
+			<select name="">
+				<option value="1">選項一</option>
+				<option value="2">選項二</option>
+				<option value="3">選項三</option>
+			</select>
+			
+			<h5>輸入框（大）</h5>
+			<textarea name="note" cols="30" rows="10" placeholder="輸入一段文字"></textarea>
+
+			<h5>submit</h5>
+			<input type="submit" value="送出">
+
+			<input type="reset" value="清空">
+
+		</form>	
+
+		<br>
+
+		post
+		<form action="#" method="post">
+			姓名：<input type="text" name="name"><br>
+			電話：<input type="text" name="tel">
+			<input type="submit">
+		</form>
+
+		<!-- table>(tr>th*4)+(tr>td*4) /!-->
+		<table border="20">
+			<tr>
+				<th>h1</th>
+				<th>h2</th>
+				<th>h3</th>
+				<th>h4</th>
+			</tr>
+			<tr>
+				<td>d1</td>
+				<td>d2</td>
+				<td>d3</td>
+				<td></td>
+			</tr>
+		</table>
+		<br>
+		<table border="1" cellspacing="0">
+			<tr>
+				<th>h1</th>
+				<th>h2</th>
+				<th>h3</th>
+				<th>h4</th>
+			</tr>
+			<tr>
+				<td>d1</td>
+				<td>d2</td>
+				<td>
+					<table border="1" cellspacing="0">
+						<tr>
+							<th>h1</th>
+							<th>h2</th>
+							<th>h3</th>
+							<th>h4</th>
+						</tr>
+						<tr>
+							<td>d1</td>
+							<td>d2</td>
+							<td>d3</td>
+							<td>d4</td>
+						</tr>
+					</table>
+				</td>
+				<td>d4</td>
+			</tr>
+		</table>
+		<br>
+		<!-- tr 不能省 /!-->
+		<table border="1">
+			<th>h1</th>
+			<th>h2</th>
+			<th>h3</th>
+			<th>h4</th>
+			<td>d1</td>
+			<td>d2</td>
+			<td>d3</td>
+		</table>
+		<br>
+		<table border="1" cellspacing="0">
+			<tr>
+				<!-- th = 字加粗 /!-->
+				<th>1</th>
+				<th>1</th>
+				<th rowspan="2">1</th>
+				<th>1</th>
+				<th>1</th>
+				<th>1</th>
+			</tr>
+			<tr>
+				<td colspan="2">2</td>
+				<td>2</td>
+				<td>2</td>
+				<td>2</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>3</td>
+				<td>3</td>
+				<td>3</td>
+				<td>3</td>
+				<td>3</td>
+			</tr>
+		</table>	
+</body>
+</html>

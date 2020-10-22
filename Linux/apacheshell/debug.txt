@@ -1,0 +1,1 @@
+htpasswd -b /var/www/html/test1/private/ user 123456
