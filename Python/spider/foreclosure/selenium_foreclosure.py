@@ -44,9 +44,12 @@ Select(select_pagecount).select_by_value("100")
 time.sleep(1)
 
 driver.find_element_by_css_selector("#Submit_Button").click()
-time.sleep(10)
+time.sleep(6)
 
 df = pd.read_html(driver.page_source)
+
+driver.quit()
+
 data = df[1][['管理編號', '拍賣日期', '門　牌', '用途', '拍賣總價', '執行法院', '拍賣次數']]
 data.columns = ['管理編號', '拍賣日期', '門牌', '用途', '拍賣總價', '執行法院', '拍賣次數']
 
