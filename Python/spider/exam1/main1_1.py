@@ -34,6 +34,5 @@ for li in dest:
 df = pd.DataFrame.from_dict(jdata)
 df.to_json('./exam1_1.json', orient='records', force_ascii=False)
 
-# sql.insert_technews(jdata)
-
+sql.insert_technews(jdata)
 mg.insert_technews(jdata)

@@ -1,6 +1,0 @@
-蘋果（Apple）iPhone 12 mini 與 iPhone 12 Pro Max1 兩款新機，將於 6 日開放預購，並於 13 日正式上市；有不少果粉都期待入手小尺寸的 iPhone 12 mini，只不過現在有傳聞指出，如果 iPhone 12 mini 搭配磁吸無線充電器 Magsafe 使用，原先最高充電功率可達 15W 的 Magsafe 無線充電，將稍稍縮水成 12W。
-
-據《MacRumors》指出，根據蘋果美國官網某頁面顯示，Magsafe 無線充電器若是 iPhone 12 mini 使用時，最高充電功率僅 12W，不過其他 3 款 iPhone 12 型號使用 Magsafe 無線充電時，最高都可到 15W。
-根據此頁面顯示，iPhone 12、iPhone 12 Pro 及 iPhone 12 Pro Max 用 Magsafe 無線充電時，可透過 9V / 2.22A、9V / 2.56A，或更高功率的充電插頭達到最高 15W 無線充電。
-而 iPhone 12 mini 則可透過 9V / 2.03A，或是更高功率的充電頭，做到最高 12W 無線充電。當無論任何型號 iPhone 12 連接 Lightning 配件（如 EarPods），且使用 Magsafe 同時充電時，充電器最高都僅能提供 7.5W 無線充電。
-（首圖來源：科技新報）

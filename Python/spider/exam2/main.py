@@ -1,4 +1,5 @@
 from newsapi import NewsApiClient
+from pymongo import MongoClient
 import pandas
 import json
 import pymysql
@@ -27,6 +28,22 @@ def insert_news_sql(df):
         result = cursor.fetchall()
         # print(result)
 
+def insert_news_mongo(df):
+    client = MongoClient('mongodb://192.168.56.102:27017/')
+    db = client["assignment"]
+    col = db["newsapi"]
+    # print(list(col.find({},{'_id':0,'sum_title':1})))
+    json_data = eval(df.to_json(orient='records', force_ascii=False).replace("null","'null'"))
+    
+    df = pandas.DataFrame(col.find({},{'_id':0,'sum_title':1}))
+    
+    if df.empty:
+        col.insert_many(json_data)
+    else:
+        for news in json_data:
+            if not df['sum_title'].str.contains(news['sum_title']).any():
+                col.insert_one(news)
+
 # Init
 newsapi = NewsApiClient(api_key='10a72a45c8ec4cdb89dec1a9d289feb3')
 
@@ -52,4 +69,4 @@ with open('./exam2.json') as file:
 
 df = pandas.read_json('['+json_file+']')
 insert_news_sql(df)
-
+insert_news_mongo(df)

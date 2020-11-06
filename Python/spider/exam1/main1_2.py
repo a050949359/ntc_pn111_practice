@@ -49,7 +49,7 @@ for i,url in enumerate(df['sum_title_url']):
     # file
     content = write_to_file(file_name)
     # mysql
-    # sql.insert_news_content({"title":df['sum_title'][i], "content":content})
+    sql.insert_news_content({"title":df['sum_title'][i], "content":content})
     # mongodb
     mg.insert_sum_content({"title":df['sum_title'][i], "content":content})
 
@@ -65,7 +65,7 @@ for i,spotlist in enumerate(df['spotlist']):
         # file
         content = write_to_file(file_name)
         # mysql
-        # sql.insert_news_content({"title":df['spotlist'][i][j]['title'], "content":content})
+        sql.insert_news_content({"title":df['spotlist'][i][j]['title'], "content":content})
         # mongodb
         mg.insert_spot_content({"title":df['spotlist'][i][j]['title'], "content":content, "index":j})
     

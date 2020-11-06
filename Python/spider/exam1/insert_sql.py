@@ -15,7 +15,7 @@ def mysql(host='192.168.56.102', user='harold', passwd='123456', db='assignment'
         
 # 先在mysql內建立DB與table，再插入資料
 def insert_technews(data):
-    sql = "nsert iignore into technews values('{}', {}, '{}', '{}');"
+    sql = "insert ignore into technews values('{}', {}, '{}', '{}');"
     with mysql() as cursor:
         for i in range(len(data)):
             news_category = data[i]["category"]

@@ -3,7 +3,7 @@ import pandas as pd
 
 # import 聯合 的資料 
 def insert_technews(data):
-    client = MongoClient('mongodb://192.168.56.105:27017/')
+    client = MongoClient('mongodb://192.168.56.102:27017/')
     db = client["assignment"]
     col = db["technews"]
     # print(list(col.find({},{'_id':0,'sum_title':1})))
@@ -16,7 +16,7 @@ def insert_technews(data):
                 col.insert_one(news)
 
 def insert_sum_content(data):
-    client = MongoClient('mongodb://192.168.56.105:27017/')
+    client = MongoClient('mongodb://192.168.56.102:27017/')
     db = client["assignment"]
     col = db["technews"]
     query = { "sum_title": data['title'] }
@@ -24,7 +24,7 @@ def insert_sum_content(data):
     col.update(query, newvalues)
 
 def insert_spot_content(data):
-    client = MongoClient('mongodb://192.168.56.105:27017/')
+    client = MongoClient('mongodb://192.168.56.102:27017/')
     db = client["assignment"]
     col = db["technews"]
     

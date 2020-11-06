@@ -1,9 +1,0 @@
-南韓媒體透露，明年初問世的 iPad，可能是首款採用 Mini LED 背光面板的蘋果產品。據了解，面板由南韓廠 LG Display（LGD）供貨，供應鏈包括台廠晶電和台表科。
-韓媒 etnews 3 日報導，業界消息透露，LGD 計劃供應採用具有 Mini LED 背光模組的 LCD 面板給蘋果，這些面板將用於明年第一季亮相的 iPad。Mini LED 背光面板的供應鏈業者已經敲定，台廠晶電生產 Mini LED，台表科負責 Mini LED 的表面黏著技術（Surface Mount Technology）。LGD 會結合 LCD 和模組，製造最終的面板成品，預料年底啟動量產。
-面板業人士說，Mini LED 背光面板的畫面最貼近現實，蘋果可能對 Mini LED 背光面板的表現深感驚豔，決定採用。倘若消息為真，明年初的 iPad 將是蘋果首款使用 Mini LED 背光面板的產品，接著蘋果還打算把此面板用於 MacBook 筆電和 iMac，若如此，Mini LED 的需求將大增。
-業界代表說：「蘋果打頭陣，其他 IT 設備商會跟進使用 Mini LED 背光面板，此趨勢將對全球 LCD 產業帶來巨大改變。」據悉除了蘋果，LGD 也積極接洽聯想、LG 電子等個人電腦（PC）、筆電、顯示器業者，希望能供應 Mini LED 背光面板。
-MacRumors 5 月報導，蘋果有許多產品使用 LCD 面板，內建 LED 背光模組，讓面板能發光，面板會控制何處該亮、何處該暗。Mini LED 一如其名，裡頭的二極體較小，不到 0.2 公釐。和傳統 LCD 面板相比，Mini LED 背光面板有更多 LED，調光分區數（dimming zones）也更多。舉例而言，傳統面板可能有數百個 LED，Mini LED 面板則有上千個 LED。
-Mini LED 面板擁有更多 LED 和調光分區數，能讓暗色更暗、亮色更亮、色彩更鮮豔、對比更銳利。
-蘋果 iPhone 採用 OLED 面板，但是 OLED 要價高昂，螢幕較大的 Mac 筆電、iPad 均未使用 OLED。蘋果的 Mac、iPad 或許打算跳過 OLED，先採用 Mini LED，未來再用 Micro LED。
-Micro LED 技術和 OLED 相似，畫素會自行發光，但是沒有 OLED 的殘影和亮度衰退問題。
-（本文由 MoneyDJ新聞 授權轉載；首圖來源：Unsplash）

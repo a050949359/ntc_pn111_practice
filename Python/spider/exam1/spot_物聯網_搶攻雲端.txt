@@ -1,9 +1,0 @@
-鎖定雲端服務市場，戴爾（Dell）加速落實即服務（As-a-Service）策略，宣布推出全新 Project APEX 計畫，簡化客戶與合作夥伴按需存取戴爾技術的方式，包含儲存、伺服器、網路設備、超融合基礎架構、PC 以及更廣泛的解決方案。
-
-IDC 全球研究事業群副總裁 Rick Villars 日前表示，至 2021 年，即服務所帶來的靈活性與可適性，讓透過彈性消費/即服務解決方案建置本地端基礎架構的需求成長高達 3 倍之多。
-為此，戴爾積極推動 As-a-Service 策略，並發布最新 Project APEX 計畫。據悉，Project APEX 將整合戴爾「即服務」與雲端策略、技術解決方案，以及進入市場（GTM）的投資，讓企業無論在本地端、邊際環境、或是公有雲等環境運行工作負載，都能享有一致的即服務體驗。
-全新 Dell Technologies Cloud Console 雲端控制平台是 Project APEX 的基礎，為客戶在管理雲端與即服務時，提供單一且無縫的使用體驗。企業能透過平台瀏覽並訂閱各種雲端服務與即服務解決方案，迅速滿足業務需求；僅需點擊幾個按鍵，即可部署各種工作負載、管理多雲資源、即時監控成本並擴充功能。
-同時，戴爾旗下儲存即服務（STaaS）是一個部署於本地端的即服務解決方案，具備可擴充及彈性的儲存資源，可提供區塊與檔案式數據服務以及完備的企業級功能；STaaS 解決方案專為營運成本管理而設計，同時使客戶能透過 Dell Technologies Cloud Console 輕鬆管理 STaaS 資源。
-除了 Dell Technologies Cloud Console 雲端控制平台和 STaaS 外，戴爾 Project APEX 計畫還包含了 Dell Technologies Cloud Platform、Dell Technologies Cloud PowerProtect for Multi-cloud 和 Flex On Demand 等服務。戴爾強調，Project APEX 將協助企業以安全且環保的方式汰換基礎架構，協助客戶實現其永續目標。
-戴爾科技集團營運長暨副董事長 Jeff Clarke 指出，Project APEX 讓客戶能獲得多元的選項、簡易性，以及橫跨 PC 與 IT 基礎架構的一致體驗。戴爾的目標是為客戶帶來以最適合的方式拓展所需資源，協助他們迅速因應各種變化，在減輕 IT 負擔的同時，更專注於業務需求。
-（首圖來源：Dell）
