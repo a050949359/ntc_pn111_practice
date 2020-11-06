@@ -14,7 +14,8 @@ def mysql(host='192.168.56.102', user='harold', passwd='123456', db='assignment'
         conn.commit()
         cursor.close()
         conn.close()
-
+        
+# 先在mysql內建立DB與table，再插入資料
 def insert_udn_sql(data):
     sql = "insert ignore into udn_news(title, eye, time) values('{}', {}, '{}');"
     with mysql() as cursor:
@@ -24,6 +25,7 @@ def insert_udn_sql(data):
         result = cursor.fetchall()
         print(result)
 
+# import table 到 已建好的DB內
 def import_ct_sql(data):
     df = pd.DataFrame(data)
     engine = create_engine("mysql+pymysql://{}:{}@{}/{}?charset={}".format('harold', '123456', '192.168.56.102:3306', 'assignment','utf8'))

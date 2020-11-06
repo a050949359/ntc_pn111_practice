@@ -29,7 +29,6 @@ def chinatimes_parser(html):
     category_l = []
 
     for data in news:
-        print(data)
         title_l.append(data.select_one("h3 a").text)
         time_l.append(data.find("time")["datetime"])
         category_l.append(data.select_one("div.category a").text)
